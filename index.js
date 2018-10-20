@@ -134,7 +134,7 @@ client.on("message", async message => {
   }
 });
 
-if(message.member.roles.find("name", "ADMIN"){
+if(!member(msg.guild.id).hasPermission(ADMIN)){return;}
     client.on('message', msg => {
   if (msg.content === 'Hizmetçilerim') {
     msg.reply('Emrendin yüce olan!');
@@ -145,8 +145,7 @@ if(message.member.roles.find("name", "ADMIN"){
 } else {
 client.on('message', msg => {
   if (msg.content === 'Hizmetçilerim') {
-    msg.reply('Senden emir almam aşşağılık!'});
+    msg.reply('Senden emir almam aşşağılık!'}});
 }
-
 
 client.login(process.env.BOT_TOKEN);
