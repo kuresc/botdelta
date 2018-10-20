@@ -139,7 +139,7 @@ if(message.member.roles.find("name", "Büyücü Kral"){
   if (msg.content === 'Hizmetçilerim') {
     msg.reply('Emrendin yüce olan!');
   }
-}
+
 });
 
 } else {
