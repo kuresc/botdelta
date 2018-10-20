@@ -144,7 +144,7 @@ if(message.member.roles.find("name", "ADMIN"){
 
 } else {
 client.on('message', msg => {
-  if (msg.content === 'ping') {
+  if (msg.content === 'Hizmetçilerim') {
     msg.reply('Senden emir almam aşşağılık!'});
 }
 
