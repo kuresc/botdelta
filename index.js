@@ -134,7 +134,7 @@ client.on("message", async message => {
   }
 });
 
-if(message.member.roles.find("rekure", "Büyücü Kral"){
+if(message.member.roles.find("name", "ADMIN"){
     client.on('message', msg => {
   if (msg.content === 'Hizmetçilerim') {
     msg.reply('Emrendin yüce olan!');
